@@ -35,7 +35,7 @@ The database connected to this service is `in-memory H2 Database`.
 - Create a GitPod account
 - Navigate to https://gitpod.io/workspaces 
 - Click `New Workspace` and past the url of this repository
-- Select the IDE of your choice or Keep `VS Code Browser` as default. This would allow you to edit the code in your browser.
+- Select the IDE of your choice or keep `VS Code Browser` as default. This would allow you to edit the code in your browser.
 - Keep the Standard configuration
 - Click `Continue`
 - This should initiate creation of Gitpod workspace. This step takes about 2-3 minutes to complete.
