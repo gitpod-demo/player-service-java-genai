@@ -1,0 +1,30 @@
+// Conversation
+curl --location 'http://localhost:8080/v1/chat/conversation' \
+--header 'Content-Type: application/json' \
+--data '{
+    "prompt": "Write a haiku about recursion in programming."
+}'
+
+// chat
+curl --location 'http://localhost:8080/v1/chat' \
+--header 'Content-Type: application/json' \
+--data '{
+    "prompt": "Write a haiku about recursion in programming."
+}'
+
+// Ollama list models
+curl --location --request GET 'http://localhost:8080/v1/chat/ollama/list-models' \
+--header 'Content-Type: application/json' \
+--data '{
+  "model": "tinyllama",
+  "prompt": "Why is the sky blue?"
+}'
+
+
+// Ollama chat
+curl --location 'http://localhost:8080/v1/chat/ollama/chat' \
+--header 'Content-Type: application/json' \
+--data '{
+  "model": "tinyllama",
+  "prompt": "Why is the sky blue?"
+}'
