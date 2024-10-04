@@ -13,12 +13,7 @@ curl --location 'http://localhost:8080/v1/chat' \
 }'
 
 // Ollama list models
-curl --location --request GET 'http://localhost:8080/v1/chat/ollama/list-models' \
---header 'Content-Type: application/json' \
---data '{
-  "model": "tinyllama",
-  "prompt": "Why is the sky blue?"
-}'
+curl --location 'http://localhost:8080/v1/chat/ollama/list-models'
 
 
 // Ollama chat
