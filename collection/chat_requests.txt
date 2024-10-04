@@ -1,11 +1,11 @@
-// Conversation
+// OpenAI Conversation
 curl --location 'http://localhost:8080/v1/chat/conversation' \
 --header 'Content-Type: application/json' \
 --data '{
     "prompt": "Write a haiku about recursion in programming."
 }'
 
-// chat
+// OpenAI chat
 curl --location 'http://localhost:8080/v1/chat' \
 --header 'Content-Type: application/json' \
 --data '{
